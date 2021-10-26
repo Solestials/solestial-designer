@@ -42,7 +42,7 @@ export class Planet {
             (this.canvas as any).selection = false;
         }
 
-        let layers = [
+        const layers = [
             this.background,
         ];
          
@@ -52,8 +52,10 @@ export class Planet {
             if (!dysonRing) {
                 console.log(`Failed to locate dyson ring pair!`);
             } else {
-                layers.push(dysonRing, this.body, this.feature, this.hand, this.face, this.hand);
+                layers.push(dysonRing, this.body, this.hand, this.face, this.hand, this.feature, this.orbit);
             }
+        } else if (this.feature.name === 'Strong Magnetism') {
+            layers.push(this.feature, this.body, this.face, this.hand, this.orbit);
         } else {
             layers.push(this.body, this.face, this.hand, this.feature, this.orbit);
         }
