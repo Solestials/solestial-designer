@@ -310,6 +310,10 @@ const loadedHands: LoadedAttribute[] = [
 
 const loadedFeatures: LoadedAttribute[] = [
     {
+        name: 'Alien Camp',
+        image: require(`${__dirname}/../assets/features/Alien Camp.png`),
+    },
+    {
         name: 'Alien Family',
         image: require(`${__dirname}/../assets/features/Alien Family.png`),
     },
@@ -350,15 +354,31 @@ const loadedFeatures: LoadedAttribute[] = [
         image: require(`${__dirname}/../assets/features/Brown SolarFlares.png`),
     },
     {
-        name: 'Double Rocky Ring',
+        name: 'Dense DustRing',
+        image: require(`${__dirname}/../assets/features/Dense DustRing.png`),
+    },
+    {
+        name: 'Double Ring',
         image: require(`${__dirname}/../assets/features/Double Ring.png`),
     },
     {
-        name: 'Dust Ring',
+        name: 'DustRing',
         image: require(`${__dirname}/../assets/features/DustRing.png`),
     },
     {
-        name: 'Great Pyramid',
+        name: 'Frozen Titan',
+        image: require(`${__dirname}/../assets/features/Frozen Titan.png`),
+    },
+    {
+        name: 'Gaia',
+        image: require(`${__dirname}/../assets/features/Gaia.png`),
+    },
+    {
+        name: 'Googly Eyes',
+        image: require(`${__dirname}/../assets/features/Googly Eyes.png`),
+    },
+    {
+        name: 'GreatPyramid',
         image: require(`${__dirname}/../assets/features/GreatPyramid.png`),
     },
     {
@@ -372,6 +392,18 @@ const loadedFeatures: LoadedAttribute[] = [
     {
         name: 'Igloo',
         image: require(`${__dirname}/../assets/features/Igloo.png`),
+    },
+    {
+        name: 'Into the Warp Drive',
+        image: require(`${__dirname}/../assets/features/Into the Warp Drive.png`),
+    },
+    {
+        name: 'Iron Cube',
+        image: require(`${__dirname}/../assets/features/Iron Cube.png`),
+    },
+    {
+        name: 'Krakatoa',
+        image: require(`${__dirname}/../assets/features/Krakatoa.png`),
     },
     {
         name: 'Lava Lamp',
@@ -426,19 +458,35 @@ const loadedFeatures: LoadedAttribute[] = [
         image: require(`${__dirname}/../assets/features/Red SolarFlares.png`),
     },
     {
-        name: 'Rocky Ring',
+        name: 'Rocks',
+        image: require(`${__dirname}/../assets/features/Rocks.png`),
+    },
+    {
+        name: 'RockyRing',
         image: require(`${__dirname}/../assets/features/RockyRing.png`),
+    },
+    {
+        name: 'Sharknado',
+        image: require(`${__dirname}/../assets/features/Sharknado.png`),
     },
     {
         name: 'Shuttle',
         image: require(`${__dirname}/../assets/features/Shuttle.png`),
     },
     {
+        name: 'SingleRing',
+        image: require(`${__dirname}/../assets/features/SingleRing.png`),
+    },
+    {
         name: 'Strong Magnetism',
         image: require(`${__dirname}/../assets/features/Strong Magnetism.png`),
     },
     {
-        name: 'Toxic Atmosphere',
+        name: 'The All Seeing Eye',
+        image: require(`${__dirname}/../assets/features/The All Seeing Eye.png`),
+    },
+    {
+        name: 'ToxicAtmosphere',
         image: require(`${__dirname}/../assets/features/ToxicAtmosphere.png`),
     },
     {
@@ -454,7 +502,7 @@ const loadedFeatures: LoadedAttribute[] = [
         image: require(`${__dirname}/../assets/features/Tsunami.png`),
     },
     {
-        name: 'Twin Rings',
+        name: 'TwinRings',
         image: require(`${__dirname}/../assets/features/TwinRings.png`),
     },
     {
