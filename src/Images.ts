@@ -561,36 +561,88 @@ const loadedFeatures: LoadedAttribute[] = [
 
 const loadedOrbits: LoadedAttribute[] = [
     {
-        name: 'Asteroid',
-        image: require(`${__dirname}/../assets/orbits/Asteroid.png`),
+        name: 'Ape',
+        image: require(`${__dirname}/../assets/orbits/Ape.png`),
     },
     {
-        name: 'Astronaut',
-        image: require(`${__dirname}/../assets/orbits/Astronaut.png`),
+        name: 'Broken Shield',
+        image: require(`${__dirname}/../assets/orbits/Broken Shield.png`),
     },
     {
-        name: 'Civilization',
-        image: require(`${__dirname}/../assets/orbits/Civilization.png`),
+        name: 'Buzz',
+        image: require(`${__dirname}/../assets/orbits/Buzz.png`),
     },
     {
-        name: 'Comet',
-        image: require(`${__dirname}/../assets/orbits/Comet.png`),
+        name: 'C-Type Asteroid',
+        image: require(`${__dirname}/../assets/orbits/C-Type Asteroid.png`),
+    },
+    {
+        name: 'Castle In The Sky',
+        image: require(`${__dirname}/../assets/orbits/Castle In The Sky.png`),
+    },
+    {
+        name: 'Cheese Moon',
+        image: require(`${__dirname}/../assets/orbits/Cheese Moon.png`),
+    },
+    {
+        name: 'Cozy Coupe',
+        image: require(`${__dirname}/../assets/orbits/Cozy Coupe.png`),
     },
     {
         name: 'Cthulu',
         image: require(`${__dirname}/../assets/orbits/Cthulu.png`),
     },
     {
-        name: 'DrillBot',
-        image: require(`${__dirname}/../assets/orbits/DrillBot.png`),
+        name: 'Cubebot',
+        image: require(`${__dirname}/../assets/orbits/Cubebot.png`),
+    },
+    {
+        name: 'Drillbot',
+        image: require(`${__dirname}/../assets/orbits/Drillbot.png`),
+    },
+    {
+        name: 'Extraterrestrial',
+        image: require(`${__dirname}/../assets/orbits/Extraterrestrial.png`),
     },
     {
         name: 'Eye',
         image: require(`${__dirname}/../assets/orbits/Eye.png`),
     },
     {
+        name: 'Falcon 1',
+        image: require(`${__dirname}/../assets/orbits/Falcon 1.png`),
+    },
+    {
+        name: 'Floating Kingdom',
+        image: require(`${__dirname}/../assets/orbits/Floating Kingdom.png`),
+    },
+    {
+        name: 'Infected Eye',
+        image: require(`${__dirname}/../assets/orbits/Infected Eye.png`),
+    },
+    {
+        name: 'Invader',
+        image: require(`${__dirname}/../assets/orbits/Invader.png`),
+    },
+    {
+        name: 'Kthanid',
+        image: require(`${__dirname}/../assets/orbits/Kthanid.png`),
+    },
+    {
         name: 'Laika',
         image: require(`${__dirname}/../assets/orbits/Laika.png`),
+    },
+    {
+        name: 'Luna',
+        image: require(`${__dirname}/../assets/orbits/Luna.png`),
+    },
+    {
+        name: 'Meteor Shower',
+        image: require(`${__dirname}/../assets/orbits/Meteor Shower.png`),
+    },
+    {
+        name: 'Meteor',
+        image: require(`${__dirname}/../assets/orbits/Meteor.png`),
     },
     {
         name: 'Monke',
@@ -601,12 +653,20 @@ const loadedOrbits: LoadedAttribute[] = [
         image: require(`${__dirname}/../assets/orbits/Moon.png`),
     },
     {
-        name: 'Rocket',
-        image: require(`${__dirname}/../assets/orbits/Rocket.png`),
+        name: 'Neil',
+        image: require(`${__dirname}/../assets/orbits/Neil.png`),
+    },
+    {
+        name: 'S-Type Asteroid',
+        image: require(`${__dirname}/../assets/orbits/S-Type Asteroid.png`),
     },
     {
         name: 'Satellite',
         image: require(`${__dirname}/../assets/orbits/Satellite.png`),
+    },
+    {
+        name: 'Saturn V',
+        image: require(`${__dirname}/../assets/orbits/Saturn V.png`),
     },
     {
         name: 'Shield',
@@ -617,10 +677,133 @@ const loadedOrbits: LoadedAttribute[] = [
         image: require(`${__dirname}/../assets/orbits/Starman.png`),
     },
     {
-        name: 'UFO',
-        image: require(`${__dirname}/../assets/orbits/UFO.png`),
+        name: 'Voyager',
+        image: require(`${__dirname}/../assets/orbits/Voyager.png`),
     },
-];
+]
+
+const loadedOrbits2: LoadedAttribute[] = [
+    {
+        name: 'Ape',
+        image: require(`${__dirname}/../assets/orbits2/Ape.png`),
+    },
+    {
+        name: 'Broken Shield',
+        image: require(`${__dirname}/../assets/orbits2/Broken Shield.png`),
+    },
+    {
+        name: 'Buzz',
+        image: require(`${__dirname}/../assets/orbits2/Buzz.png`),
+    },
+    {
+        name: 'C-Type Asteroid',
+        image: require(`${__dirname}/../assets/orbits2/C-Type Asteroid.png`),
+    },
+    {
+        name: 'Castle In The Sky',
+        image: require(`${__dirname}/../assets/orbits2/Castle In The Sky.png`),
+    },
+    {
+        name: 'Cheese Moon',
+        image: require(`${__dirname}/../assets/orbits2/Cheese Moon.png`),
+    },
+    {
+        name: 'Cozy Coupe',
+        image: require(`${__dirname}/../assets/orbits2/Cozy Coupe.png`),
+    },
+    {
+        name: 'Cthulu',
+        image: require(`${__dirname}/../assets/orbits2/Cthulu.png`),
+    },
+    {
+        name: 'Cubebot',
+        image: require(`${__dirname}/../assets/orbits2/Cubebot.png`),
+    },
+    {
+        name: 'Drillbot',
+        image: require(`${__dirname}/../assets/orbits2/Drillbot.png`),
+    },
+    {
+        name: 'Extraterrestrial',
+        image: require(`${__dirname}/../assets/orbits2/Extraterrestrial.png`),
+    },
+    {
+        name: 'Eye',
+        image: require(`${__dirname}/../assets/orbits2/Eye.png`),
+    },
+    {
+        name: 'Falcon 1',
+        image: require(`${__dirname}/../assets/orbits2/Falcon 1.png`),
+    },
+    {
+        name: 'Floating Kingdom',
+        image: require(`${__dirname}/../assets/orbits2/Floating Kingdom.png`),
+    },
+    {
+        name: 'Infected Eye',
+        image: require(`${__dirname}/../assets/orbits2/Infected Eye.png`),
+    },
+    {
+        name: 'Invader',
+        image: require(`${__dirname}/../assets/orbits2/Invader.png`),
+    },
+    {
+        name: 'Kthanid',
+        image: require(`${__dirname}/../assets/orbits2/Kthanid.png`),
+    },
+    {
+        name: 'Laika',
+        image: require(`${__dirname}/../assets/orbits2/Laika.png`),
+    },
+    {
+        name: 'Luna',
+        image: require(`${__dirname}/../assets/orbits2/Luna.png`),
+    },
+    {
+        name: 'Meteor Shower',
+        image: require(`${__dirname}/../assets/orbits2/Meteor Shower.png`),
+    },
+    {
+        name: 'Meteor',
+        image: require(`${__dirname}/../assets/orbits2/Meteor.png`),
+    },
+    {
+        name: 'Monke',
+        image: require(`${__dirname}/../assets/orbits2/Monke.png`),
+    },
+    {
+        name: 'Moon',
+        image: require(`${__dirname}/../assets/orbits2/Moon.png`),
+    },
+    {
+        name: 'Neil',
+        image: require(`${__dirname}/../assets/orbits2/Neil.png`),
+    },
+    {
+        name: 'S-Type Asteroid',
+        image: require(`${__dirname}/../assets/orbits2/S-Type Asteroid.png`),
+    },
+    {
+        name: 'Satellite',
+        image: require(`${__dirname}/../assets/orbits2/Satellite.png`),
+    },
+    {
+        name: 'Saturn V',
+        image: require(`${__dirname}/../assets/orbits2/Saturn V.png`),
+    },
+    {
+        name: 'Shield',
+        image: require(`${__dirname}/../assets/orbits2/Shield.png`),
+    },
+    {
+        name: 'Starman',
+        image: require(`${__dirname}/../assets/orbits2/Starman.png`),
+    },
+    {
+        name: 'Voyager',
+        image: require(`${__dirname}/../assets/orbits2/Voyager.png`),
+    },
+]
 
 export const backgrounds: Attribute[] = loadedBackgrounds.map((l) => ({ name: l.name, image: l.image.default }));
 export const bodies: Attribute[] = loadedBodies.map((l) => ({ name: l.name, image: l.image.default }));
@@ -628,3 +811,4 @@ export const faces: Attribute[] = loadedFaces.map((l) => ({ name: l.name, image:
 export const hands: Attribute[] = loadedHands.map((l) => ({ name: l.name, image: l.image.default }));
 export const features: Attribute[] = loadedFeatures.map((l) => ({ name: l.name, image: l.image.default }));
 export const orbits: Attribute[] = loadedOrbits.map((l) => ({ name: l.name, image: l.image.default }));
+export const orbits2: Attribute[] = loadedOrbits2.map((l) => ({ name: l.name, image: l.image.default }));

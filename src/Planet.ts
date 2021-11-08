@@ -12,6 +12,7 @@ export class Planet {
         public hand: Attribute,
         public feature: Attribute,
         public orbit: Attribute,
+        public orbit2: Attribute,
     ) {
     }
 
@@ -52,12 +53,12 @@ export class Planet {
             if (!dysonRing) {
                 console.log(`Failed to locate dyson ring pair!`);
             } else {
-                layers.push(dysonRing, this.body, this.hand, this.face, this.hand, this.feature, this.orbit);
+                layers.push(dysonRing, this.body, this.hand, this.face, this.hand, this.feature, this.orbit, this.orbit2);
             }
         } else if (this.feature.name === 'Strong Magnetism') {
-            layers.push(this.feature, this.body, this.face, this.hand, this.orbit);
+            layers.push(this.feature, this.body, this.face, this.hand, this.orbit, this.orbit2);
         } else {
-            layers.push(this.body, this.face, this.hand, this.feature, this.orbit);
+            layers.push(this.body, this.face, this.hand, this.feature, this.orbit, this.orbit2);
         }
 
         for (const item of layers) {

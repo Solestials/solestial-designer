@@ -33,6 +33,7 @@ export interface IPlanetPickerProps {
     bodies: Attribute[];
     faces: Attribute[];
     orbits: Attribute[];
+    orbits2: Attribute[];
     features: Attribute[];
     hands: Attribute[];
 
@@ -40,6 +41,7 @@ export interface IPlanetPickerProps {
     setBodies: (prevState: Attribute[]) => void;
     setFaces: (prevState: Attribute[]) => void;
     setOrbits: (prevState: Attribute[]) => void;
+    setOrbits2: (prevState: Attribute[]) => void;
     setFeatures: (prevState: Attribute[]) => void;
     setHands: (prevState: Attribute[]) => void;
 }
@@ -50,55 +52,65 @@ function getFeatureForBody(body: Attribute): Attribute {
     const featureMapping = new Map([
         ['Barren', [
             'Alien',
-            'Alien Family'
+            'Alien Family',
+            'Alien Camp',
         ]],
         ['Ocean', [
             'Tsunami',
             'Typhoon',
+            'Sharknado',
         ]],
         ['Ice', [
             'Igloo',
             'Spikes',
+            'Frozen Titan',
         ]],
         ['Forest', [
             'Grove',
             'Tree of Life',
+            'Gaia',
         ]],
         ['Iron', [
+            'Iron Cube',
             'Light Magnetism',
             'Strong Magnetism',
         ]],
         ['Desert', [
             'Oasis',
             'Great Pyramid',
+            'The All Seeing Eye',
         ]],
         ['Terrestrial', [
             'Shuttle',
             'Mecha',
+            'Into the Warp Drive',
         ]],
         ['Toxic', [
             'Toxic Atmosphere',
             'Pestilence',
+            'Googly Eyes',
         ]],
         ['Lava', [
             'Lava Lamp',
             'Massive Volcano',
+            'Krakatoa',
         ]],
         ['Orphan', [
+            'Single Ring',
             'Twin Rings',
             'Triplet Rings',
         ]],
         ['Gas Giant', [
+            'Rocks',
             'Rocky Ring',
-            'Double Rocky Ring',
+            'Double Rings',
         ]],
         ['Dwarf', [
             'Dust Ring',
+            'Dense Dust Ring',
             'X Rings',
         ]],
         ['Brown Star', [
-            'Yellow Solar Flares',
-            'Yellow Dyson Ring',
             'Brown Solar Flares',
             'Brown Dyson Ring',
         ]],
@@ -107,10 +119,7 @@ function getFeatureForBody(body: Attribute): Attribute {
             'Red Dyson Ring',
         ]],
         ['White Star', [
-            'Yellow Solar Flares',
-            'Yellow Dyson Ring',
             'Blue Solar Flares',
-            'Blue Dyson Ring',
             'White Solar Flares',
             'White Dyson Ring',
         ]],
@@ -131,40 +140,16 @@ function getFeatureForBody(body: Attribute): Attribute {
         ['Yellow Black Hole', [
             'Yellow Quasar',
             'Yellow Accretion Disk',
-            'Blue Quasar',
-            'Blue Accretion Disk',
-            'Pink Quasar',
-            'Pink Accretion Disk',
-            'Rainbow Quasar',
-            'Rainbow Accretion Disk',
         ]],
         ['Blue Black Hole', [
-            'Yellow Quasar',
-            'Yellow Accretion Disk',
             'Blue Quasar',
             'Blue Accretion Disk',
-            'Pink Quasar',
-            'Pink Accretion Disk',
-            'Rainbow Quasar',
-            'Rainbow Accretion Disk',
         ]],
         ['Pink Black Hole', [
-            'Yellow Quasar',
-            'Yellow Accretion Disk',
-            'Blue Quasar',
-            'Blue Accretion Disk',
             'Pink Quasar',
             'Pink Accretion Disk',
-            'Rainbow Quasar',
-            'Rainbow Accretion Disk',
         ]],
         ['Rainbow Black Hole', [
-            'Yellow Quasar',
-            'Yellow Accretion Disk',
-            'Blue Quasar',
-            'Blue Accretion Disk',
-            'Pink Quasar',
-            'Pink Accretion Disk',
             'Rainbow Quasar',
             'Rainbow Accretion Disk',
         ]],
@@ -248,6 +233,7 @@ export function PlanetPicker(props: IPlanetPickerProps) {
         hands,
         features,
         orbits,
+        orbits2,
     } = props;
 
     const availableBackgrounds = backgrounds.concat(defaultImages.backgrounds);
@@ -256,6 +242,7 @@ export function PlanetPicker(props: IPlanetPickerProps) {
     const availableHands = hands.concat(defaultImages.hands);
     const availableFeatures = features.concat(defaultImages.features);
     const availableOrbits = orbits.concat(defaultImages.orbits);
+    const availableOrbits2 = orbits2.concat(defaultImages.orbits2);
     
     const backgroundOptions = [...availableBackgrounds];
     const bodyOptions = [...availableBodies];
@@ -263,6 +250,7 @@ export function PlanetPicker(props: IPlanetPickerProps) {
     const handOptions = [...availableHands];
     const featureOptions = [...availableFeatures];
     const orbitsOptions = [...availableOrbits];
+    const orbits2Options = [...availableOrbits2];
 
     for (const arr of [
         backgroundOptions,
@@ -271,6 +259,7 @@ export function PlanetPicker(props: IPlanetPickerProps) {
         handOptions,
         featureOptions,
         orbitsOptions,
+        orbits2Options,
     ]) {
         arr.sort((a, b) => a.name.localeCompare(b.name));
 
@@ -286,6 +275,7 @@ export function PlanetPicker(props: IPlanetPickerProps) {
     const [facesVal, setFace] = React.useState<Attribute>(pickRandomAttribute(availableFaces));
     const [handsVal, setHands] = React.useState<Attribute>(pickRandomAttribute(availableHands));
     const [orbitsVal, setOrbits] = React.useState<Attribute>(pickRandomAttribute(availableOrbits));
+    const [orbits2Val, setOrbits2] = React.useState<Attribute>(pickRandomAttribute(availableOrbits));
     const [featureVal, setFeature] = React.useState<Attribute>(pickRandomFeature(body));
     const [canvasSize, setCanvasSize] = React.useState<number>(CANVAS_SIZE);
 
@@ -309,6 +299,7 @@ export function PlanetPicker(props: IPlanetPickerProps) {
                 handsVal,
                 featureVal,
                 orbitsVal,
+                orbits2Val,
             );
 
             planet.setCanvas(canvas);
@@ -328,6 +319,7 @@ export function PlanetPicker(props: IPlanetPickerProps) {
         handsVal,
         featureVal,
         orbitsVal,
+        orbits2Val,
         canvasSize,
     ]);
 
@@ -343,6 +335,7 @@ export function PlanetPicker(props: IPlanetPickerProps) {
         setHands(pickRandomAttribute(availableHands, true, 0.3));
         setFeature(pickRandomFeature(body, 0.33));
         setOrbits(pickRandomAttribute(availableOrbits, true, 0.5));
+        setOrbits2(pickRandomAttribute(availableOrbits2, true, 0.5));
     }
 
     function handleAttributeChange(event: React.ChangeEvent<{}>, newValue: Attribute | null, setStateFunc: any) {
@@ -476,12 +469,25 @@ export function PlanetPicker(props: IPlanetPickerProps) {
                             value={orbitsVal}
                             getOptionLabel={(option) => option.name}
                             getOptionSelected={(option, value) => option.name === value.name}
-                            renderInput={(params) => <TextField {...params} label="Orbit" variant="outlined"/>}
+                            renderInput={(params) => <TextField {...params} label="Prograde Orbit" variant="outlined"/>}
                             style={{
                                 width: '200px',
                                 marginTop: '11px',
                             }}
                         />
+                        <Autocomplete
+                            onChange={(e, v) => handleAttributeChange(e, v, setOrbits2)}
+                            options={orbits2Options}
+                            value={orbits2Val}
+                            getOptionLabel={(option) => option.name}
+                            getOptionSelected={(option, value) => option.name === value.name}
+                            renderInput={(params) => <TextField {...params} label="Retrograde Orbit" variant="outlined"/>}
+                            style={{
+                                width: '200px',
+                                marginTop: '11px',
+                            }}
+                        />
+
                         <Select
                             onChange={(e) => setCanvasSize(Number(e.target.value))}
                             value={canvasSize}
