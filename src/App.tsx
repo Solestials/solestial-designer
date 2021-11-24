@@ -1,8 +1,5 @@
 import React from 'react';
 import {
-    Tabs,
-    Tab,
-    AppBar,
     ThemeProvider,
     createTheme,
 } from '@material-ui/core';
@@ -10,6 +7,7 @@ import { deepPurple, deepOrange } from '@material-ui/core/colors';
 
 import { PlanetPicker } from './PlanetPicker';
 import { Attribute } from './Types';
+import './styles.css';
 
 interface TabPanelProps {
     children?: React.ReactNode;
@@ -97,7 +95,6 @@ function PlanetGenerator(props: IGeneratorProps) {
 }
 
 function App() {
-    const [tab, setTab] = React.useState(0);
     const [backgrounds, setBackgrounds] = React.useState<Attribute[]>([]);
     const [bodies, setBodies] = React.useState<Attribute[]>([]);
     const [faces, setFaces] = React.useState<Attribute[]>([]);
@@ -106,40 +103,26 @@ function App() {
     const [orbits, setOrbits] = React.useState<Attribute[]>([]);
     const [orbits2, setOrbits2] = React.useState<Attribute[]>([]);
 
-    function handleTabChange(event: React.ChangeEvent<{}>, newValue: number) {
-        setTab(newValue);
-    }
-
     return (
         <>
+            <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,500,700" rel="stylesheet"/>
             <ThemeProvider theme={theme}>
-                <AppBar position="static">
-                    <Tabs
-                        value={tab}
-                        onChange={handleTabChange}
-                        centered
-                    > 
-                        <Tab label="Planet Generator"/>
-                    </Tabs>
-                </AppBar>
-                <TabPanel value={tab} index={0}>
-                    <PlanetGenerator
-                        backgrounds={backgrounds}
-                        bodies={bodies}
-                        faces={faces}
-                        hands={hands}
-                        features={features}
-                        orbits={orbits}
-                        orbits2={orbits2}
-                        setBackgrounds={setBackgrounds}
-                        setBodies={setBodies}
-                        setFaces={setFaces}
-                        setHands={setHands}
-                        setFeatures={setFeatures}
-                        setOrbits={setOrbits}
-                        setOrbits2={setOrbits2}
-                    />
-                </TabPanel>
+                <PlanetPicker
+                    backgrounds={backgrounds}
+                    bodies={bodies}
+                    faces={faces}
+                    hands={hands}
+                    features={features}
+                    orbits={orbits}
+                    orbits2={orbits2}
+                    setBackgrounds={setBackgrounds}
+                    setBodies={setBodies}
+                    setFaces={setFaces}
+                    setHands={setHands}
+                    setFeatures={setFeatures}
+                    setOrbits={setOrbits}
+                    setOrbits2={setOrbits2}
+                />
             </ThemeProvider>
         </>
     );
