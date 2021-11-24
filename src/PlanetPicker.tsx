@@ -430,6 +430,7 @@ export function PlanetPicker(props: IPlanetPickerProps) {
                     marginTop: '20px',
                     color: 'white',
                     fontFamily: 'Roboto Mono, monospace',
+                    textDecoration: 'none',
                 }}
             >
                 Home
