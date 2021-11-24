@@ -10,217 +10,217 @@ export interface LoadedAttribute {
 const loadedBackgrounds: LoadedAttribute[] = [
     {
         name: 'Black',
-        image: require(`${__dirname}/../assets/backgrounds/Black.png`),
+        image: require(`${__dirname}/img/assets/backgrounds/Black.png`),
     },
     {
         name: 'Brown',
-        image: require(`${__dirname}/../assets/backgrounds/Brown.png`),
+        image: require(`${__dirname}/img/assets/backgrounds/Brown.png`),
     },
     {
         name: 'Green',
-        image: require(`${__dirname}/../assets/backgrounds/Green.png`),
+        image: require(`${__dirname}/img/assets/backgrounds/Green.png`),
     },
     {
         name: 'Purple',
-        image: require(`${__dirname}/../assets/backgrounds/Purple.png`),
+        image: require(`${__dirname}/img/assets/backgrounds/Purple.png`),
     },
     {
         name: 'Teal',
-        image: require(`${__dirname}/../assets/backgrounds/Teal.png`),
+        image: require(`${__dirname}/img/assets/backgrounds/Teal.png`),
     },
     {
         name: 'Wine',
-        image: require(`${__dirname}/../assets/backgrounds/Wine.png`),
+        image: require(`${__dirname}/img/assets/backgrounds/Wine.png`),
     },
     {
         name: 'Space Yellow',
-        image: require(`${__dirname}/../assets/backgrounds/Space Yellow.png`),
+        image: require(`${__dirname}/img/assets/backgrounds/Space Yellow.png`),
     },
     {
         name: 'Space Green',
-        image: require(`${__dirname}/../assets/backgrounds/Space Green.png`),
+        image: require(`${__dirname}/img/assets/backgrounds/Space Green.png`),
     },
     {
         name: 'Space Blue',
-        image: require(`${__dirname}/../assets/backgrounds/Space Blue.png`),
+        image: require(`${__dirname}/img/assets/backgrounds/Space Blue.png`),
     },
     {
         name: 'Space Violet',
-        image: require(`${__dirname}/../assets/backgrounds/Space Violet.png`),
+        image: require(`${__dirname}/img/assets/backgrounds/Space Violet.png`),
     },
     {
         name: 'Space Red',
-        image: require(`${__dirname}/../assets/backgrounds/Space Red.png`),
+        image: require(`${__dirname}/img/assets/backgrounds/Space Red.png`),
     },
     {
         name: 'Nebula',
-        image: require(`${__dirname}/../assets/backgrounds/Nebula.png`),
+        image: require(`${__dirname}/img/assets/backgrounds/Nebula.png`),
     },
     {
         name: 'Solana Void',
-        image: require(`${__dirname}/../assets/backgrounds/SolanaVoid.png`),
+        image: require(`${__dirname}/img/assets/backgrounds/SolanaVoid.png`),
     },
     {
         name: 'Spiral',
-        image: require(`${__dirname}/../assets/backgrounds/Spiral.png`),
+        image: require(`${__dirname}/img/assets/backgrounds/Spiral.png`),
     },
     {
         name: 'Eye',
-        image: require(`${__dirname}/../assets/backgrounds/Eye.png`),
+        image: require(`${__dirname}/img/assets/backgrounds/Eye.png`),
     },
 ];
 
 const loadedBodies: LoadedAttribute[] = [
     {
         name: 'Barren',
-        image: require(`${__dirname}/../assets/bodies/Barren.png`),
+        image: require(`${__dirname}/img/assets/bodies/Barren.png`),
     },
     {
         name: 'Blue Black Hole',
-        image: require(`${__dirname}/../assets/bodies/Black Hole Blue.png`),
+        image: require(`${__dirname}/img/assets/bodies/Black Hole Blue.png`),
     },
     {
         name: 'Pink Black Hole',
-        image: require(`${__dirname}/../assets/bodies/Black Hole Pink.png`),
+        image: require(`${__dirname}/img/assets/bodies/Black Hole Pink.png`),
     },
     {
         name: 'Rainbow Black Hole',
-        image: require(`${__dirname}/../assets/bodies/Black Hole Rainbow.png`),
+        image: require(`${__dirname}/img/assets/bodies/Black Hole Rainbow.png`),
     },
     {
         name: 'Yellow Black Hole',
-        image: require(`${__dirname}/../assets/bodies/Black Hole Yellow.png`),
+        image: require(`${__dirname}/img/assets/bodies/Black Hole Yellow.png`),
     },
     {
         name: 'Desert',
-        image: require(`${__dirname}/../assets/bodies/Desert.png`),
+        image: require(`${__dirname}/img/assets/bodies/Desert.png`),
     },
     {
         name: 'Dwarf',
-        image: require(`${__dirname}/../assets/bodies/Dwarf.png`),
+        image: require(`${__dirname}/img/assets/bodies/Dwarf.png`),
     },
     {
         name: 'Forest',
-        image: require(`${__dirname}/../assets/bodies/Forest.png`),
+        image: require(`${__dirname}/img/assets/bodies/Forest.png`),
     },
     {
         name: 'Gas Giant',
-        image: require(`${__dirname}/../assets/bodies/GasGiant.png`),
+        image: require(`${__dirname}/img/assets/bodies/GasGiant.png`),
     },
     {
         name: 'Ice',
-        image: require(`${__dirname}/../assets/bodies/Ice.png`),
+        image: require(`${__dirname}/img/assets/bodies/Ice.png`),
     },
     {
         name: 'Iron',
-        image: require(`${__dirname}/../assets/bodies/Iron.png`),
+        image: require(`${__dirname}/img/assets/bodies/Iron.png`),
     },
     {
         name: 'Lava',
-        image: require(`${__dirname}/../assets/bodies/Lava.png`),
+        image: require(`${__dirname}/img/assets/bodies/Lava.png`),
     },
     {
         name: 'Ocean',
-        image: require(`${__dirname}/../assets/bodies/Ocean.png`),
+        image: require(`${__dirname}/img/assets/bodies/Ocean.png`),
     },
     {
         name: 'Orphan',
-        image: require(`${__dirname}/../assets/bodies/Orphan.png`),
+        image: require(`${__dirname}/img/assets/bodies/Orphan.png`),
     },
     {
         name: 'Blue Star',
-        image: require(`${__dirname}/../assets/bodies/Star Blue.png`),
+        image: require(`${__dirname}/img/assets/bodies/Star Blue.png`),
     },
     {
         name: 'Brown Star',
-        image: require(`${__dirname}/../assets/bodies/Star Brown.png`),
+        image: require(`${__dirname}/img/assets/bodies/Star Brown.png`),
     },
     {
         name: 'Violet Star',
-        image: require(`${__dirname}/../assets/bodies/Star Violet.png`),
+        image: require(`${__dirname}/img/assets/bodies/Star Violet.png`),
     },
     {
         name: 'White Star',
-        image: require(`${__dirname}/../assets/bodies/Star White.png`),
+        image: require(`${__dirname}/img/assets/bodies/Star White.png`),
     },
     {
         name: 'Yellow Star',
-        image: require(`${__dirname}/../assets/bodies/Star Yellow.png`),
+        image: require(`${__dirname}/img/assets/bodies/Star Yellow.png`),
     },
     {
         name: 'Red Star',
-        image: require(`${__dirname}/../assets/bodies/StarRed.png`),
+        image: require(`${__dirname}/img/assets/bodies/StarRed.png`),
     },
     {
         name: 'Terrestrial',
-        image: require(`${__dirname}/../assets/bodies/Terrestrial.png`),
+        image: require(`${__dirname}/img/assets/bodies/Terrestrial.png`),
     },
     {
         name: 'Toxic',
-        image: require(`${__dirname}/../assets/bodies/Toxic.png`),
+        image: require(`${__dirname}/img/assets/bodies/Toxic.png`),
     },
 ];
 
 const loadedFaces: LoadedAttribute[] = [
     {
         name: 'Smile',
-        image: require(`${__dirname}/../assets/faces/Smile.png`),
+        image: require(`${__dirname}/img/assets/faces/Smile.png`),
     },
     {
         name: 'Uwu',
-        image: require(`${__dirname}/../assets/faces/uwu.png`),
+        image: require(`${__dirname}/img/assets/faces/uwu.png`),
     },
     {
         name: 'Serious',
-        image: require(`${__dirname}/../assets/faces/Serious.png`),
+        image: require(`${__dirname}/img/assets/faces/Serious.png`),
     },
     {
         name: 'Pouty',
-        image: require(`${__dirname}/../assets/faces/Pouty.png`),
+        image: require(`${__dirname}/img/assets/faces/Pouty.png`),
     },
     {
         name: 'Glasses',
-        image: require(`${__dirname}/../assets/faces/Glasses.png`),
+        image: require(`${__dirname}/img/assets/faces/Glasses.png`),
     },
     {
         name: 'Surprise',
-        image: require(`${__dirname}/../assets/faces/Surprise.png`),
+        image: require(`${__dirname}/img/assets/faces/Surprise.png`),
     },
     {
         name: 'Smirk',
-        image: require(`${__dirname}/../assets/faces/Smirk.png`),
+        image: require(`${__dirname}/img/assets/faces/Smirk.png`),
     },
     {
         name: 'Embarrassed',
-        image: require(`${__dirname}/../assets/faces/Embarrassed.png`),
+        image: require(`${__dirname}/img/assets/faces/Embarrassed.png`),
     },
     {
         name: 'Laugh',
-        image: require(`${__dirname}/../assets/faces/Laugh.png`),
+        image: require(`${__dirname}/img/assets/faces/Laugh.png`),
     },
     {
         name: 'Suspecting',
-        image: require(`${__dirname}/../assets/faces/Suspecting.png`),
+        image: require(`${__dirname}/img/assets/faces/Suspecting.png`),
     },
     {
         name: 'Angry',
-        image: require(`${__dirname}/../assets/faces/Angry.png`),
+        image: require(`${__dirname}/img/assets/faces/Angry.png`),
     },
     {
         name: 'Crying',
-        image: require(`${__dirname}/../assets/faces/Crying.png`),
+        image: require(`${__dirname}/img/assets/faces/Crying.png`),
     },
     {
         name: 'Mischievous',
-        image: require(`${__dirname}/../assets/faces/Mischievous.png`),
+        image: require(`${__dirname}/img/assets/faces/Mischievous.png`),
     },
     {
         name: 'Kissing',
-        image: require(`${__dirname}/../assets/faces/Kissing.png`),
+        image: require(`${__dirname}/img/assets/faces/Kissing.png`),
     },
     {
         name: 'Hearts',
-        image: require(`${__dirname}/../assets/faces/Hearts.png`),
+        image: require(`${__dirname}/img/assets/faces/Hearts.png`),
     },
 ];
 
@@ -228,580 +228,580 @@ const loadedHands: LoadedAttribute[] = [
 
     {
         name: 'Banana',
-        image: require(`${__dirname}/../assets/hands/Banana.png`),
+        image: require(`${__dirname}/img/assets/hands/Banana.png`),
     },
     {
         name: 'Bear',
-        image: require(`${__dirname}/../assets/hands/Bear.png`),
+        image: require(`${__dirname}/img/assets/hands/Bear.png`),
     },
     {
         name: 'Beer',
-        image: require(`${__dirname}/../assets/hands/Beer.png`),
+        image: require(`${__dirname}/img/assets/hands/Beer.png`),
     },
     {
         name: 'Boxing Glove',
-        image: require(`${__dirname}/../assets/hands/Boxing Glove.png`),
+        image: require(`${__dirname}/img/assets/hands/Boxing Glove.png`),
     },
     {
         name: 'Coffee',
-        image: require(`${__dirname}/../assets/hands/Coffee.png`),
+        image: require(`${__dirname}/img/assets/hands/Coffee.png`),
     },
     {
         name: 'Cookie',
-        image: require(`${__dirname}/../assets/hands/Cookie.png`),
+        image: require(`${__dirname}/img/assets/hands/Cookie.png`),
     },
     {
         name: 'Emerald',
-        image: require(`${__dirname}/../assets/hands/Emerald.png`),
+        image: require(`${__dirname}/img/assets/hands/Emerald.png`),
     },
     {
         name: 'Foam Finger',
-        image: require(`${__dirname}/../assets/hands/Foam Finger.png`),
+        image: require(`${__dirname}/img/assets/hands/Foam Finger.png`),
     },
     {
         name: 'Ice Cream Cone',
-        image: require(`${__dirname}/../assets/hands/Ice Cream Cone.png`),
+        image: require(`${__dirname}/img/assets/hands/Ice Cream Cone.png`),
     },
     {
         name: 'Joint',
-        image: require(`${__dirname}/../assets/hands/Joint.png`),
+        image: require(`${__dirname}/img/assets/hands/Joint.png`),
     },
     {
         name: 'Mushroom',
-        image: require(`${__dirname}/../assets/hands/Mushroom.png`),
+        image: require(`${__dirname}/img/assets/hands/Mushroom.png`),
     },
     {
         name: 'Potato',
-        image: require(`${__dirname}/../assets/hands/Potato.png`),
+        image: require(`${__dirname}/img/assets/hands/Potato.png`),
     },
     {
         name: 'Quartz',
-        image: require(`${__dirname}/../assets/hands/Quartz.png`),
+        image: require(`${__dirname}/img/assets/hands/Quartz.png`),
     },
     {
         name: 'Rose',
-        image: require(`${__dirname}/../assets/hands/Rose.png`),
+        image: require(`${__dirname}/img/assets/hands/Rose.png`),
     },
     {
         name: 'Ruby',
-        image: require(`${__dirname}/../assets/hands/Ruby.png`),
+        image: require(`${__dirname}/img/assets/hands/Ruby.png`),
     },
     {
         name: 'Sapphire',
-        image: require(`${__dirname}/../assets/hands/Sapphire.png`),
+        image: require(`${__dirname}/img/assets/hands/Sapphire.png`),
     },
     {
         name: 'Topaz',
-        image: require(`${__dirname}/../assets/hands/Topaz.png`),
+        image: require(`${__dirname}/img/assets/hands/Topaz.png`),
     },
     {
         name: 'Wand',
-        image: require(`${__dirname}/../assets/hands/Wand.png`),
+        image: require(`${__dirname}/img/assets/hands/Wand.png`),
     },
     {
         name: 'Watergun',
-        image: require(`${__dirname}/../assets/hands/Watergun.png`),
+        image: require(`${__dirname}/img/assets/hands/Watergun.png`),
     },
     {
         name: 'Watermelon Slice',
-        image: require(`${__dirname}/../assets/hands/Watermelon Slice.png`),
+        image: require(`${__dirname}/img/assets/hands/Watermelon Slice.png`),
     },
 ];
 
 const loadedFeatures: LoadedAttribute[] = [
     {
         name: 'Alien Camp',
-        image: require(`${__dirname}/../assets/features/Alien Camp.png`),
+        image: require(`${__dirname}/img/assets/features/Alien Camp.png`),
     },
     {
         name: 'Alien Family',
-        image: require(`${__dirname}/../assets/features/Alien Family.png`),
+        image: require(`${__dirname}/img/assets/features/Alien Family.png`),
     },
     {
         name: 'Alien',
-        image: require(`${__dirname}/../assets/features/Alien.png`),
+        image: require(`${__dirname}/img/assets/features/Alien.png`),
     },
     {
         name: 'Blue Accretion Disk',
-        image: require(`${__dirname}/../assets/features/Blue Accretion Disk.png`),
+        image: require(`${__dirname}/img/assets/features/Blue Accretion Disk.png`),
     },
     {
         name: 'Blue Dyson Ring',
-        image: require(`${__dirname}/../assets/features/Blue Dyson Ring.png`),
+        image: require(`${__dirname}/img/assets/features/Blue Dyson Ring.png`),
     },
     {
         name: 'Blue Dyson Ring2',
-        image: require(`${__dirname}/../assets/features/Blue Dyson Ring2.png`),
+        image: require(`${__dirname}/img/assets/features/Blue Dyson Ring2.png`),
     },
     {
         name: 'Blue Quasar',
-        image: require(`${__dirname}/../assets/features/Blue Quasar.png`),
+        image: require(`${__dirname}/img/assets/features/Blue Quasar.png`),
     },
     {
         name: 'Blue Solar Flares',
-        image: require(`${__dirname}/../assets/features/Blue Solar Flares.png`),
+        image: require(`${__dirname}/img/assets/features/Blue Solar Flares.png`),
     },
     {
         name: 'Brown Dyson Ring',
-        image: require(`${__dirname}/../assets/features/Brown Dyson Ring.png`),
+        image: require(`${__dirname}/img/assets/features/Brown Dyson Ring.png`),
     },
     {
         name: 'Brown Dyson Ring2',
-        image: require(`${__dirname}/../assets/features/Brown Dyson Ring2.png`),
+        image: require(`${__dirname}/img/assets/features/Brown Dyson Ring2.png`),
     },
     {
         name: 'Brown SolarFlares',
-        image: require(`${__dirname}/../assets/features/Brown SolarFlares.png`),
+        image: require(`${__dirname}/img/assets/features/Brown SolarFlares.png`),
     },
     {
         name: 'Dense DustRing',
-        image: require(`${__dirname}/../assets/features/Dense DustRing.png`),
+        image: require(`${__dirname}/img/assets/features/Dense DustRing.png`),
     },
     {
         name: 'Double Ring',
-        image: require(`${__dirname}/../assets/features/Double Ring.png`),
+        image: require(`${__dirname}/img/assets/features/Double Ring.png`),
     },
     {
         name: 'DustRing',
-        image: require(`${__dirname}/../assets/features/DustRing.png`),
+        image: require(`${__dirname}/img/assets/features/DustRing.png`),
     },
     {
         name: 'Frozen Titan',
-        image: require(`${__dirname}/../assets/features/Frozen Titan.png`),
+        image: require(`${__dirname}/img/assets/features/Frozen Titan.png`),
     },
     {
         name: 'Gaia',
-        image: require(`${__dirname}/../assets/features/Gaia.png`),
+        image: require(`${__dirname}/img/assets/features/Gaia.png`),
     },
     {
         name: 'Googly Eyes',
-        image: require(`${__dirname}/../assets/features/Googly Eyes.png`),
+        image: require(`${__dirname}/img/assets/features/Googly Eyes.png`),
     },
     {
         name: 'GreatPyramid',
-        image: require(`${__dirname}/../assets/features/GreatPyramid.png`),
+        image: require(`${__dirname}/img/assets/features/GreatPyramid.png`),
     },
     {
         name: 'Grove',
-        image: require(`${__dirname}/../assets/features/Grove.png`),
+        image: require(`${__dirname}/img/assets/features/Grove.png`),
     },
     {
         name: 'Ice Spikes',
-        image: require(`${__dirname}/../assets/features/Ice Spikes.png`),
+        image: require(`${__dirname}/img/assets/features/Ice Spikes.png`),
     },
     {
         name: 'Igloo',
-        image: require(`${__dirname}/../assets/features/Igloo.png`),
+        image: require(`${__dirname}/img/assets/features/Igloo.png`),
     },
     {
         name: 'Into the Warp Drive',
-        image: require(`${__dirname}/../assets/features/Into the Warp Drive.png`),
+        image: require(`${__dirname}/img/assets/features/Into the Warp Drive.png`),
     },
     {
         name: 'Iron Cube',
-        image: require(`${__dirname}/../assets/features/Iron Cube.png`),
+        image: require(`${__dirname}/img/assets/features/Iron Cube.png`),
     },
     {
         name: 'Krakatoa',
-        image: require(`${__dirname}/../assets/features/Krakatoa.png`),
+        image: require(`${__dirname}/img/assets/features/Krakatoa.png`),
     },
     {
         name: 'Lava Lamp',
-        image: require(`${__dirname}/../assets/features/Lava Lamp.png`),
+        image: require(`${__dirname}/img/assets/features/Lava Lamp.png`),
     },
     {
         name: 'Light Magnetism',
-        image: require(`${__dirname}/../assets/features/Light Magnetism.png`),
+        image: require(`${__dirname}/img/assets/features/Light Magnetism.png`),
     },
     {
         name: 'Massive Volcano',
-        image: require(`${__dirname}/../assets/features/Massive Volcano.png`),
+        image: require(`${__dirname}/img/assets/features/Massive Volcano.png`),
     },
     {
         name: 'Mecha',
-        image: require(`${__dirname}/../assets/features/Mecha.png`),
+        image: require(`${__dirname}/img/assets/features/Mecha.png`),
     },
     {
         name: 'Oasis',
-        image: require(`${__dirname}/../assets/features/Oasis.png`),
+        image: require(`${__dirname}/img/assets/features/Oasis.png`),
     },
     {
         name: 'Pestilence',
-        image: require(`${__dirname}/../assets/features/Pestilence.png`),
+        image: require(`${__dirname}/img/assets/features/Pestilence.png`),
     },
     {
         name: 'Pink Accretion Disk',
-        image: require(`${__dirname}/../assets/features/Pink Accretion Disk.png`),
+        image: require(`${__dirname}/img/assets/features/Pink Accretion Disk.png`),
     },
     {
         name: 'Pink Quasar',
-        image: require(`${__dirname}/../assets/features/Pink Quasar.png`),
+        image: require(`${__dirname}/img/assets/features/Pink Quasar.png`),
     },
     {
         name: 'Rainbow Accretion Disk',
-        image: require(`${__dirname}/../assets/features/Rainbow Accretion Disk.png`),
+        image: require(`${__dirname}/img/assets/features/Rainbow Accretion Disk.png`),
     },
     {
         name: 'Rainbow Quasar',
-        image: require(`${__dirname}/../assets/features/Rainbow Quasar.png`),
+        image: require(`${__dirname}/img/assets/features/Rainbow Quasar.png`),
     },
     {
         name: 'Red Dyson Ring',
-        image: require(`${__dirname}/../assets/features/Red Dyson Ring.png`),
+        image: require(`${__dirname}/img/assets/features/Red Dyson Ring.png`),
     },
     {
         name: 'Red Dyson Ring2',
-        image: require(`${__dirname}/../assets/features/Red Dyson Ring2.png`),
+        image: require(`${__dirname}/img/assets/features/Red Dyson Ring2.png`),
     },
     {
         name: 'Red SolarFlares',
-        image: require(`${__dirname}/../assets/features/Red SolarFlares.png`),
+        image: require(`${__dirname}/img/assets/features/Red SolarFlares.png`),
     },
     {
         name: 'Rocks',
-        image: require(`${__dirname}/../assets/features/Rocks.png`),
+        image: require(`${__dirname}/img/assets/features/Rocks.png`),
     },
     {
         name: 'RockyRing',
-        image: require(`${__dirname}/../assets/features/RockyRing.png`),
+        image: require(`${__dirname}/img/assets/features/RockyRing.png`),
     },
     {
         name: 'Sharknado',
-        image: require(`${__dirname}/../assets/features/Sharknado.png`),
+        image: require(`${__dirname}/img/assets/features/Sharknado.png`),
     },
     {
         name: 'Shuttle',
-        image: require(`${__dirname}/../assets/features/Shuttle.png`),
+        image: require(`${__dirname}/img/assets/features/Shuttle.png`),
     },
     {
         name: 'SingleRing',
-        image: require(`${__dirname}/../assets/features/SingleRing.png`),
+        image: require(`${__dirname}/img/assets/features/SingleRing.png`),
     },
     {
         name: 'Strong Magnetism',
-        image: require(`${__dirname}/../assets/features/Strong Magnetism.png`),
+        image: require(`${__dirname}/img/assets/features/Strong Magnetism.png`),
     },
     {
         name: 'The All Seeing Eye',
-        image: require(`${__dirname}/../assets/features/The All Seeing Eye.png`),
+        image: require(`${__dirname}/img/assets/features/The All Seeing Eye.png`),
     },
     {
         name: 'ToxicAtmosphere',
-        image: require(`${__dirname}/../assets/features/ToxicAtmosphere.png`),
+        image: require(`${__dirname}/img/assets/features/ToxicAtmosphere.png`),
     },
     {
         name: 'Tree of Life',
-        image: require(`${__dirname}/../assets/features/Tree of Life.png`),
+        image: require(`${__dirname}/img/assets/features/Tree of Life.png`),
     },
     {
         name: 'Triplet Rings',
-        image: require(`${__dirname}/../assets/features/Triplet Rings.png`),
+        image: require(`${__dirname}/img/assets/features/Triplet Rings.png`),
     },
     {
         name: 'Tsunami',
-        image: require(`${__dirname}/../assets/features/Tsunami.png`),
+        image: require(`${__dirname}/img/assets/features/Tsunami.png`),
     },
     {
         name: 'TwinRings',
-        image: require(`${__dirname}/../assets/features/TwinRings.png`),
+        image: require(`${__dirname}/img/assets/features/TwinRings.png`),
     },
     {
         name: 'Typhoon',
-        image: require(`${__dirname}/../assets/features/Typhoon.png`),
+        image: require(`${__dirname}/img/assets/features/Typhoon.png`),
     },
     {
         name: 'Violet Dyson Ring',
-        image: require(`${__dirname}/../assets/features/Violet Dyson Ring.png`),
+        image: require(`${__dirname}/img/assets/features/Violet Dyson Ring.png`),
     },
     {
         name: 'Violet Dyson Ring2',
-        image: require(`${__dirname}/../assets/features/Violet Dyson Ring2.png`),
+        image: require(`${__dirname}/img/assets/features/Violet Dyson Ring2.png`),
     },
     {
         name: 'Violet Solar Flares',
-        image: require(`${__dirname}/../assets/features/Violet Solar Flares.png`),
+        image: require(`${__dirname}/img/assets/features/Violet Solar Flares.png`),
     },
     {
         name: 'White Dyson Ring',
-        image: require(`${__dirname}/../assets/features/White Dyson Ring.png`),
+        image: require(`${__dirname}/img/assets/features/White Dyson Ring.png`),
     },
     {
         name: 'White Dyson Ring2',
-        image: require(`${__dirname}/../assets/features/White Dyson Ring2.png`),
+        image: require(`${__dirname}/img/assets/features/White Dyson Ring2.png`),
     },
     {
         name: 'White Solar Flares',
-        image: require(`${__dirname}/../assets/features/White Solar Flares.png`),
+        image: require(`${__dirname}/img/assets/features/White Solar Flares.png`),
     },
     {
         name: 'X Rings',
-        image: require(`${__dirname}/../assets/features/X Rings.png`),
+        image: require(`${__dirname}/img/assets/features/X Rings.png`),
     },
     {
         name: 'Yellow Accretion Disk',
-        image: require(`${__dirname}/../assets/features/Yellow Accretion Disk.png`),
+        image: require(`${__dirname}/img/assets/features/Yellow Accretion Disk.png`),
     },
     {
         name: 'Yellow Dyson Ring',
-        image: require(`${__dirname}/../assets/features/Yellow Dyson Ring.png`),
+        image: require(`${__dirname}/img/assets/features/Yellow Dyson Ring.png`),
     },
     {
         name: 'Yellow Dyson Ring2',
-        image: require(`${__dirname}/../assets/features/Yellow Dyson Ring2.png`),
+        image: require(`${__dirname}/img/assets/features/Yellow Dyson Ring2.png`),
     },
     {
         name: 'Yellow Quasar',
-        image: require(`${__dirname}/../assets/features/Yellow Quasar.png`),
+        image: require(`${__dirname}/img/assets/features/Yellow Quasar.png`),
     },
     {
         name: 'Yellow Solar Flares',
-        image: require(`${__dirname}/../assets/features/Yellow Solar Flares.png`),
+        image: require(`${__dirname}/img/assets/features/Yellow Solar Flares.png`),
     },
 ];
 
 const loadedOrbits: LoadedAttribute[] = [
     {
         name: 'Ape',
-        image: require(`${__dirname}/../assets/orbits/Ape.png`),
+        image: require(`${__dirname}/img/assets/orbits/Ape.png`),
     },
     {
         name: 'Broken Shield',
-        image: require(`${__dirname}/../assets/orbits/Broken Shield.png`),
+        image: require(`${__dirname}/img/assets/orbits/Broken Shield.png`),
     },
     {
         name: 'Buzz',
-        image: require(`${__dirname}/../assets/orbits/Buzz.png`),
+        image: require(`${__dirname}/img/assets/orbits/Buzz.png`),
     },
     {
         name: 'C-Type Asteroid',
-        image: require(`${__dirname}/../assets/orbits/C-Type Asteroid.png`),
+        image: require(`${__dirname}/img/assets/orbits/C-Type Asteroid.png`),
     },
     {
         name: 'Castle In The Sky',
-        image: require(`${__dirname}/../assets/orbits/Castle In The Sky.png`),
+        image: require(`${__dirname}/img/assets/orbits/Castle In The Sky.png`),
     },
     {
         name: 'Cheese Moon',
-        image: require(`${__dirname}/../assets/orbits/Cheese Moon.png`),
+        image: require(`${__dirname}/img/assets/orbits/Cheese Moon.png`),
     },
     {
         name: 'Cozy Coupe',
-        image: require(`${__dirname}/../assets/orbits/Cozy Coupe.png`),
+        image: require(`${__dirname}/img/assets/orbits/Cozy Coupe.png`),
     },
     {
         name: 'Cthulu',
-        image: require(`${__dirname}/../assets/orbits/Cthulu.png`),
+        image: require(`${__dirname}/img/assets/orbits/Cthulu.png`),
     },
     {
         name: 'Cubebot',
-        image: require(`${__dirname}/../assets/orbits/Cubebot.png`),
+        image: require(`${__dirname}/img/assets/orbits/Cubebot.png`),
     },
     {
         name: 'Drillbot',
-        image: require(`${__dirname}/../assets/orbits/Drillbot.png`),
+        image: require(`${__dirname}/img/assets/orbits/Drillbot.png`),
     },
     {
         name: 'Extraterrestrial',
-        image: require(`${__dirname}/../assets/orbits/Extraterrestrial.png`),
+        image: require(`${__dirname}/img/assets/orbits/Extraterrestrial.png`),
     },
     {
         name: 'Eye',
-        image: require(`${__dirname}/../assets/orbits/Eye.png`),
+        image: require(`${__dirname}/img/assets/orbits/Eye.png`),
     },
     {
         name: 'Falcon 1',
-        image: require(`${__dirname}/../assets/orbits/Falcon 1.png`),
+        image: require(`${__dirname}/img/assets/orbits/Falcon 1.png`),
     },
     {
         name: 'Floating Kingdom',
-        image: require(`${__dirname}/../assets/orbits/Floating Kingdom.png`),
+        image: require(`${__dirname}/img/assets/orbits/Floating Kingdom.png`),
     },
     {
         name: 'Infected Eye',
-        image: require(`${__dirname}/../assets/orbits/Infected Eye.png`),
+        image: require(`${__dirname}/img/assets/orbits/Infected Eye.png`),
     },
     {
         name: 'Invader',
-        image: require(`${__dirname}/../assets/orbits/Invader.png`),
+        image: require(`${__dirname}/img/assets/orbits/Invader.png`),
     },
     {
         name: 'Kthanid',
-        image: require(`${__dirname}/../assets/orbits/Kthanid.png`),
+        image: require(`${__dirname}/img/assets/orbits/Kthanid.png`),
     },
     {
         name: 'Laika',
-        image: require(`${__dirname}/../assets/orbits/Laika.png`),
+        image: require(`${__dirname}/img/assets/orbits/Laika.png`),
     },
     {
         name: 'Luna',
-        image: require(`${__dirname}/../assets/orbits/Luna.png`),
+        image: require(`${__dirname}/img/assets/orbits/Luna.png`),
     },
     {
         name: 'Meteor Shower',
-        image: require(`${__dirname}/../assets/orbits/Meteor Shower.png`),
+        image: require(`${__dirname}/img/assets/orbits/Meteor Shower.png`),
     },
     {
         name: 'Meteor',
-        image: require(`${__dirname}/../assets/orbits/Meteor.png`),
+        image: require(`${__dirname}/img/assets/orbits/Meteor.png`),
     },
     {
         name: 'Monke',
-        image: require(`${__dirname}/../assets/orbits/Monke.png`),
+        image: require(`${__dirname}/img/assets/orbits/Monke.png`),
     },
     {
         name: 'Moon',
-        image: require(`${__dirname}/../assets/orbits/Moon.png`),
+        image: require(`${__dirname}/img/assets/orbits/Moon.png`),
     },
     {
         name: 'Neil',
-        image: require(`${__dirname}/../assets/orbits/Neil.png`),
+        image: require(`${__dirname}/img/assets/orbits/Neil.png`),
     },
     {
         name: 'S-Type Asteroid',
-        image: require(`${__dirname}/../assets/orbits/S-Type Asteroid.png`),
+        image: require(`${__dirname}/img/assets/orbits/S-Type Asteroid.png`),
     },
     {
         name: 'Satellite',
-        image: require(`${__dirname}/../assets/orbits/Satellite.png`),
+        image: require(`${__dirname}/img/assets/orbits/Satellite.png`),
     },
     {
         name: 'Saturn V',
-        image: require(`${__dirname}/../assets/orbits/Saturn V.png`),
+        image: require(`${__dirname}/img/assets/orbits/Saturn V.png`),
     },
     {
         name: 'Shield',
-        image: require(`${__dirname}/../assets/orbits/Shield.png`),
+        image: require(`${__dirname}/img/assets/orbits/Shield.png`),
     },
     {
         name: 'Starman',
-        image: require(`${__dirname}/../assets/orbits/Starman.png`),
+        image: require(`${__dirname}/img/assets/orbits/Starman.png`),
     },
     {
         name: 'Voyager',
-        image: require(`${__dirname}/../assets/orbits/Voyager.png`),
+        image: require(`${__dirname}/img/assets/orbits/Voyager.png`),
     },
 ]
 
 const loadedOrbits2: LoadedAttribute[] = [
     {
         name: 'Ape',
-        image: require(`${__dirname}/../assets/orbits2/Ape.png`),
+        image: require(`${__dirname}/img/assets/orbits2/Ape.png`),
     },
     {
         name: 'Broken Shield',
-        image: require(`${__dirname}/../assets/orbits2/Broken Shield.png`),
+        image: require(`${__dirname}/img/assets/orbits2/Broken Shield.png`),
     },
     {
         name: 'Buzz',
-        image: require(`${__dirname}/../assets/orbits2/Buzz.png`),
+        image: require(`${__dirname}/img/assets/orbits2/Buzz.png`),
     },
     {
         name: 'C-Type Asteroid',
-        image: require(`${__dirname}/../assets/orbits2/C-Type Asteroid.png`),
+        image: require(`${__dirname}/img/assets/orbits2/C-Type Asteroid.png`),
     },
     {
         name: 'Castle In The Sky',
-        image: require(`${__dirname}/../assets/orbits2/Castle In The Sky.png`),
+        image: require(`${__dirname}/img/assets/orbits2/Castle In The Sky.png`),
     },
     {
         name: 'Cheese Moon',
-        image: require(`${__dirname}/../assets/orbits2/Cheese Moon.png`),
+        image: require(`${__dirname}/img/assets/orbits2/Cheese Moon.png`),
     },
     {
         name: 'Cozy Coupe',
-        image: require(`${__dirname}/../assets/orbits2/Cozy Coupe.png`),
+        image: require(`${__dirname}/img/assets/orbits2/Cozy Coupe.png`),
     },
     {
         name: 'Cthulu',
-        image: require(`${__dirname}/../assets/orbits2/Cthulu.png`),
+        image: require(`${__dirname}/img/assets/orbits2/Cthulu.png`),
     },
     {
         name: 'Cubebot',
-        image: require(`${__dirname}/../assets/orbits2/Cubebot.png`),
+        image: require(`${__dirname}/img/assets/orbits2/Cubebot.png`),
     },
     {
         name: 'Drillbot',
-        image: require(`${__dirname}/../assets/orbits2/Drillbot.png`),
+        image: require(`${__dirname}/img/assets/orbits2/Drillbot.png`),
     },
     {
         name: 'Extraterrestrial',
-        image: require(`${__dirname}/../assets/orbits2/Extraterrestrial.png`),
+        image: require(`${__dirname}/img/assets/orbits2/Extraterrestrial.png`),
     },
     {
         name: 'Eye',
-        image: require(`${__dirname}/../assets/orbits2/Eye.png`),
+        image: require(`${__dirname}/img/assets/orbits2/Eye.png`),
     },
     {
         name: 'Falcon 1',
-        image: require(`${__dirname}/../assets/orbits2/Falcon 1.png`),
+        image: require(`${__dirname}/img/assets/orbits2/Falcon 1.png`),
     },
     {
         name: 'Floating Kingdom',
-        image: require(`${__dirname}/../assets/orbits2/Floating Kingdom.png`),
+        image: require(`${__dirname}/img/assets/orbits2/Floating Kingdom.png`),
     },
     {
         name: 'Infected Eye',
-        image: require(`${__dirname}/../assets/orbits2/Infected Eye.png`),
+        image: require(`${__dirname}/img/assets/orbits2/Infected Eye.png`),
     },
     {
         name: 'Invader',
-        image: require(`${__dirname}/../assets/orbits2/Invader.png`),
+        image: require(`${__dirname}/img/assets/orbits2/Invader.png`),
     },
     {
         name: 'Kthanid',
-        image: require(`${__dirname}/../assets/orbits2/Kthanid.png`),
+        image: require(`${__dirname}/img/assets/orbits2/Kthanid.png`),
     },
     {
         name: 'Laika',
-        image: require(`${__dirname}/../assets/orbits2/Laika.png`),
+        image: require(`${__dirname}/img/assets/orbits2/Laika.png`),
     },
     {
         name: 'Luna',
-        image: require(`${__dirname}/../assets/orbits2/Luna.png`),
+        image: require(`${__dirname}/img/assets/orbits2/Luna.png`),
     },
     {
         name: 'Meteor Shower',
-        image: require(`${__dirname}/../assets/orbits2/Meteor Shower.png`),
+        image: require(`${__dirname}/img/assets/orbits2/Meteor Shower.png`),
     },
     {
         name: 'Meteor',
-        image: require(`${__dirname}/../assets/orbits2/Meteor.png`),
+        image: require(`${__dirname}/img/assets/orbits2/Meteor.png`),
     },
     {
         name: 'Monke',
-        image: require(`${__dirname}/../assets/orbits2/Monke.png`),
+        image: require(`${__dirname}/img/assets/orbits2/Monke.png`),
     },
     {
         name: 'Moon',
-        image: require(`${__dirname}/../assets/orbits2/Moon.png`),
+        image: require(`${__dirname}/img/assets/orbits2/Moon.png`),
     },
     {
         name: 'Neil',
-        image: require(`${__dirname}/../assets/orbits2/Neil.png`),
+        image: require(`${__dirname}/img/assets/orbits2/Neil.png`),
     },
     {
         name: 'S-Type Asteroid',
-        image: require(`${__dirname}/../assets/orbits2/S-Type Asteroid.png`),
+        image: require(`${__dirname}/img/assets/orbits2/S-Type Asteroid.png`),
     },
     {
         name: 'Satellite',
-        image: require(`${__dirname}/../assets/orbits2/Satellite.png`),
+        image: require(`${__dirname}/img/assets/orbits2/Satellite.png`),
     },
     {
         name: 'Saturn V',
-        image: require(`${__dirname}/../assets/orbits2/Saturn V.png`),
+        image: require(`${__dirname}/img/assets/orbits2/Saturn V.png`),
     },
     {
         name: 'Shield',
-        image: require(`${__dirname}/../assets/orbits2/Shield.png`),
+        image: require(`${__dirname}/img/assets/orbits2/Shield.png`),
     },
     {
         name: 'Starman',
-        image: require(`${__dirname}/../assets/orbits2/Starman.png`),
+        image: require(`${__dirname}/img/assets/orbits2/Starman.png`),
     },
     {
         name: 'Voyager',
-        image: require(`${__dirname}/../assets/orbits2/Voyager.png`),
+        image: require(`${__dirname}/img/assets/orbits2/Voyager.png`),
     },
 ]
 

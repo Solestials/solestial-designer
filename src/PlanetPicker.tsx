@@ -1,6 +1,6 @@
 import React from 'react';
 import { fabric } from 'fabric';
-import { MenuItem, Select, Button, TextField, makeStyles } from '@material-ui/core';
+import { Button, TextField, makeStyles } from '@material-ui/core';
 import { Autocomplete } from '@material-ui/lab';
 
 import * as defaultImages from './Images'; 
@@ -353,13 +353,13 @@ export function PlanetPicker(props: IPlanetPickerProps) {
     const { onPlanetChange } = props;
 
     React.useEffect(() => {
-        const canvasObj = new fabric.StaticCanvas(`canvas-${props.id}`, {
+        const canvasObj = new fabric.StaticCanvas(`canvas`, {
             width: canvasValue.value,
             height: canvasValue.value,
         });
 
         setCanvas(canvasObj);
-    }, [props.id, canvasValue.value]);
+    }, [canvasValue.value]);
 
     React.useEffect(() => {
         if (canvas) {
@@ -407,12 +407,6 @@ export function PlanetPicker(props: IPlanetPickerProps) {
         setFeature(pickRandomFeature(body, 0.33));
         setOrbits(pickRandomAttribute(availableOrbits, true, 0.5));
         setOrbits2(pickRandomAttribute(availableOrbits2, true, 0.5));
-    }
-
-    function handleAttributeChange(event: React.ChangeEvent<{}>, newValue: Attribute | null, setStateFunc: any) {
-        if (newValue !== null) {
-            setStateFunc(newValue);
-        }
     }
 
     return (
@@ -512,7 +506,7 @@ export function PlanetPicker(props: IPlanetPickerProps) {
                     }}
                 >
                     <canvas
-                        id={`canvas-${props.id}`}
+                        id={`canvas`}
                         style={{
                             width: `${canvasValue.value}px`,
                             height: `${canvasValue.value}px`,
@@ -549,7 +543,6 @@ export function PlanetPicker(props: IPlanetPickerProps) {
                         alignItems: 'center',
                         justifyContent: 'center',
                         marginLeft: '30px',
-                        ...props.configLeftStyles,
                     }}
                 >
                     <AttributePicker
