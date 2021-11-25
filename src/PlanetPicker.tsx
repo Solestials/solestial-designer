@@ -186,6 +186,11 @@ function getFeatureForBody(body: Attribute): Attribute {
             'Rainbow Quasar',
             'Rainbow Accretion Disk',
         ]],
+        ['Mushroom', [
+            'Mushroom',
+            'Mushroom Trio',
+            'Mushroom Field',
+        ]],
     ]);
 
     const features = featureMapping.get(body.name);
@@ -403,7 +408,7 @@ export function PlanetPicker(props: IPlanetPickerProps) {
         const body = pickRandomAttribute(availableBodies);
         setBody(body);
         setFace(pickRandomAttribute(availableFaces));
-        setHands(pickRandomAttribute(availableHands, true, 0.3));
+        setHands(pickRandomAttribute(availableHands));
         setFeature(pickRandomFeature(body, 0.33));
         setOrbits(pickRandomAttribute(availableOrbits, true, 0.5));
         setOrbits2(pickRandomAttribute(availableOrbits2, true, 0.5));

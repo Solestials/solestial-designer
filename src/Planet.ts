@@ -46,21 +46,45 @@ export class Planet {
         const layers = [
             this.background,
         ];
-         
+            
         if (this.feature.name.endsWith('Dyson Ring')) {
             const dysonRing = defaultImages.features.find((f) => f.name === `${this.feature.name}2`);
 
             if (!dysonRing) {
                 console.log(`Failed to locate dyson ring pair!`);
             } else {
-                layers.push(dysonRing, this.body, this.hand, this.face, this.hand, this.feature, this.orbit, this.orbit2);
+                layers.push(dysonRing);
             }
         } else if (this.feature.name === 'Strong Magnetism') {
-            layers.push(this.feature, this.body, this.face, this.hand, this.orbit, this.orbit2);
-        } else {
-            layers.push(this.body, this.face, this.hand, this.feature, this.orbit, this.orbit2);
+            layers.push(this.feature);
         }
 
+        layers.push(this.body);
+
+        if (this.body.name === 'Mushroom') {
+            const mushie = defaultImages.additionalAssets.find((f) => f.name === 'Mushroom2');
+
+            if (!mushie) {
+                console.log('Failed to locate mushroom cap!');
+            } else {
+                if (this.face.name === 'Hearts') {
+                    layers.push(mushie, this.face);
+                } else {
+                    layers.push(this.face, mushie);
+                }
+            }
+        } else {
+            layers.push(this.face);
+        }
+
+        layers.push(this.hand);
+
+        if (this.feature.name !== 'Strong Magnetism') {
+            layers.push(this.feature);
+        }
+
+        layers.push(this.orbit, this.orbit2);
+         
         for (const item of layers) {
             if (!item || item.image === '') {
                 continue;
