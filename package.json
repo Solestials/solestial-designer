@@ -23,7 +23,7 @@
     "start": "react-app-rewired start",
     "build": "react-app-rewired build",
     "eject": "react-scripts eject",
-    "deploy": "yarn build && cp social.png build/"
+    "deploy": "ssh ender@144.202.78.201 'cd solestial-designer && git pull && yarn build'"
   },
   "eslintConfig": {
     "extends": [
