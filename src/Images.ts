@@ -330,255 +330,255 @@ const loadedFeatures: LoadedAttribute[] = [
         image: require(`${__dirname}/img/assets/features/Alien Family.png`),
     },
     {
-        name: 'Alien.png',
+        name: 'Alien',
         image: require(`${__dirname}/img/assets/features/Alien.png`),
     },
     {
-        name: 'Blue Accretion Disk.png',
+        name: 'Blue Accretion Disk',
         image: require(`${__dirname}/img/assets/features/Blue Accretion Disk.png`),
     },
     {
-        name: 'Blue Dyson Ring.png',
+        name: 'Blue Dyson Ring',
         image: require(`${__dirname}/img/assets/features/Blue Dyson Ring.png`),
     },
     {
-        name: 'Blue Dyson Ring2.png',
+        name: 'Blue Dyson Ring2',
         image: require(`${__dirname}/img/assets/features/Blue Dyson Ring2.png`),
     },
     {
-        name: 'Blue Quasar.png',
+        name: 'Blue Quasar',
         image: require(`${__dirname}/img/assets/features/Blue Quasar.png`),
     },
     {
-        name: 'Blue Solar Flares.png',
+        name: 'Blue Solar Flares',
         image: require(`${__dirname}/img/assets/features/Blue Solar Flares.png`),
     },
     {
-        name: 'Brown Dyson Ring.png',
+        name: 'Brown Dyson Ring',
         image: require(`${__dirname}/img/assets/features/Brown Dyson Ring.png`),
     },
     {
-        name: 'Brown Dyson Ring2.png',
+        name: 'Brown Dyson Ring2',
         image: require(`${__dirname}/img/assets/features/Brown Dyson Ring2.png`),
     },
     {
-        name: 'Brown SolarFlares.png',
+        name: 'Brown SolarFlares',
         image: require(`${__dirname}/img/assets/features/Brown SolarFlares.png`),
     },
     {
-        name: 'Dense DustRing.png',
+        name: 'Dense DustRing',
         image: require(`${__dirname}/img/assets/features/Dense DustRing.png`),
     },
     {
-        name: 'Double Ring.png',
+        name: 'Double Ring',
         image: require(`${__dirname}/img/assets/features/Double Ring.png`),
     },
     {
-        name: 'DustRing.png',
+        name: 'DustRing',
         image: require(`${__dirname}/img/assets/features/DustRing.png`),
     },
     {
-        name: 'Frozen Titan.png',
+        name: 'Frozen Titan',
         image: require(`${__dirname}/img/assets/features/Frozen Titan.png`),
     },
     {
-        name: 'Gaia.png',
+        name: 'Gaia',
         image: require(`${__dirname}/img/assets/features/Gaia.png`),
     },
     {
-        name: 'Googly Eyes.png',
+        name: 'Googly Eyes',
         image: require(`${__dirname}/img/assets/features/Googly Eyes.png`),
     },
     {
-        name: 'GreatPyramid.png',
+        name: 'GreatPyramid',
         image: require(`${__dirname}/img/assets/features/GreatPyramid.png`),
     },
     {
-        name: 'Grove.png',
+        name: 'Grove',
         image: require(`${__dirname}/img/assets/features/Grove.png`),
     },
     {
-        name: 'Ice Spikes.png',
+        name: 'Ice Spikes',
         image: require(`${__dirname}/img/assets/features/Ice Spikes.png`),
     },
     {
-        name: 'Igloo.png',
+        name: 'Igloo',
         image: require(`${__dirname}/img/assets/features/Igloo.png`),
     },
     {
-        name: 'Into the Warp Drive.png',
+        name: 'Into the Warp Drive',
         image: require(`${__dirname}/img/assets/features/Into the Warp Drive.png`),
     },
     {
-        name: 'Iron Cube.png',
+        name: 'Iron Cube',
         image: require(`${__dirname}/img/assets/features/Iron Cube.png`),
     },
     {
-        name: 'Krakatoa.png',
+        name: 'Krakatoa',
         image: require(`${__dirname}/img/assets/features/Krakatoa.png`),
     },
     {
-        name: 'Lava Lamp.png',
+        name: 'Lava Lamp',
         image: require(`${__dirname}/img/assets/features/Lava Lamp.png`),
     },
     {
-        name: 'Light Magnetism.png',
+        name: 'Light Magnetism',
         image: require(`${__dirname}/img/assets/features/Light Magnetism.png`),
     },
     {
-        name: 'Massive Volcano.png',
+        name: 'Massive Volcano',
         image: require(`${__dirname}/img/assets/features/Massive Volcano.png`),
     },
     {
-        name: 'Mecha.png',
+        name: 'Mecha',
         image: require(`${__dirname}/img/assets/features/Mecha.png`),
     },
     {
-        name: 'Mushroom Field.png',
+        name: 'Mushroom Field',
         image: require(`${__dirname}/img/assets/features/Mushroom Field.png`),
     },
     {
-        name: 'Mushroom Trio.png',
+        name: 'Mushroom Trio',
         image: require(`${__dirname}/img/assets/features/Mushroom Trio.png`),
     },
     {
-        name: 'Mushroom.png',
+        name: 'Mushroom',
         image: require(`${__dirname}/img/assets/features/Mushroom.png`),
     },
     {
-        name: 'Oasis.png',
+        name: 'Oasis',
         image: require(`${__dirname}/img/assets/features/Oasis.png`),
     },
     {
-        name: 'Pestilence.png',
+        name: 'Pestilence',
         image: require(`${__dirname}/img/assets/features/Pestilence.png`),
     },
     {
-        name: 'Pink Accretion Disk.png',
+        name: 'Pink Accretion Disk',
         image: require(`${__dirname}/img/assets/features/Pink Accretion Disk.png`),
     },
     {
-        name: 'Pink Quasar.png',
+        name: 'Pink Quasar',
         image: require(`${__dirname}/img/assets/features/Pink Quasar.png`),
     },
     {
-        name: 'Rainbow Accretion Disk.png',
+        name: 'Rainbow Accretion Disk',
         image: require(`${__dirname}/img/assets/features/Rainbow Accretion Disk.png`),
     },
     {
-        name: 'Rainbow Quasar.png',
+        name: 'Rainbow Quasar',
         image: require(`${__dirname}/img/assets/features/Rainbow Quasar.png`),
     },
     {
-        name: 'Red Dyson Ring.png',
+        name: 'Red Dyson Ring',
         image: require(`${__dirname}/img/assets/features/Red Dyson Ring.png`),
     },
     {
-        name: 'Red Dyson Ring2.png',
+        name: 'Red Dyson Ring2',
         image: require(`${__dirname}/img/assets/features/Red Dyson Ring2.png`),
     },
     {
-        name: 'Red SolarFlares.png',
+        name: 'Red SolarFlares',
         image: require(`${__dirname}/img/assets/features/Red SolarFlares.png`),
     },
     {
-        name: 'Rocks.png',
+        name: 'Rocks',
         image: require(`${__dirname}/img/assets/features/Rocks.png`),
     },
     {
-        name: 'RockyRing.png',
+        name: 'RockyRing',
         image: require(`${__dirname}/img/assets/features/RockyRing.png`),
     },
     {
-        name: 'Sharknado.png',
+        name: 'Sharknado',
         image: require(`${__dirname}/img/assets/features/Sharknado.png`),
     },
     {
-        name: 'Shuttle.png',
+        name: 'Shuttle',
         image: require(`${__dirname}/img/assets/features/Shuttle.png`),
     },
     {
-        name: 'SingleRing.png',
+        name: 'SingleRing',
         image: require(`${__dirname}/img/assets/features/SingleRing.png`),
     },
     {
-        name: 'Strong Magnetism.png',
+        name: 'Strong Magnetism',
         image: require(`${__dirname}/img/assets/features/Strong Magnetism.png`),
     },
     {
-        name: 'The All Seeing Eye.png',
+        name: 'The All Seeing Eye',
         image: require(`${__dirname}/img/assets/features/The All Seeing Eye.png`),
     },
     {
-        name: 'ToxicAtmosphere.png',
+        name: 'ToxicAtmosphere',
         image: require(`${__dirname}/img/assets/features/ToxicAtmosphere.png`),
     },
     {
-        name: 'Tree of Life.png',
+        name: 'Tree of Life',
         image: require(`${__dirname}/img/assets/features/Tree of Life.png`),
     },
     {
-        name: 'Triplet Rings.png',
+        name: 'Triplet Rings',
         image: require(`${__dirname}/img/assets/features/Triplet Rings.png`),
     },
     {
-        name: 'Tsunami.png',
+        name: 'Tsunami',
         image: require(`${__dirname}/img/assets/features/Tsunami.png`),
     },
     {
-        name: 'TwinRings.png',
+        name: 'TwinRings',
         image: require(`${__dirname}/img/assets/features/TwinRings.png`),
     },
     {
-        name: 'Typhoon.png',
+        name: 'Typhoon',
         image: require(`${__dirname}/img/assets/features/Typhoon.png`),
     },
     {
-        name: 'Violet Dyson Ring.png',
+        name: 'Violet Dyson Ring',
         image: require(`${__dirname}/img/assets/features/Violet Dyson Ring.png`),
     },
     {
-        name: 'Violet Dyson Ring2.png',
+        name: 'Violet Dyson Ring2',
         image: require(`${__dirname}/img/assets/features/Violet Dyson Ring2.png`),
     },
     {
-        name: 'Violet Solar Flares.png',
+        name: 'Violet Solar Flares',
         image: require(`${__dirname}/img/assets/features/Violet Solar Flares.png`),
     },
     {
-        name: 'White Dyson Ring.png',
+        name: 'White Dyson Ring',
         image: require(`${__dirname}/img/assets/features/White Dyson Ring.png`),
     },
     {
-        name: 'White Dyson Ring2.png',
+        name: 'White Dyson Ring2',
         image: require(`${__dirname}/img/assets/features/White Dyson Ring2.png`),
     },
     {
-        name: 'White Solar Flares.png',
+        name: 'White Solar Flares',
         image: require(`${__dirname}/img/assets/features/White Solar Flares.png`),
     },
     {
-        name: 'X Rings.png',
+        name: 'X Rings',
         image: require(`${__dirname}/img/assets/features/X Rings.png`),
     },
     {
-        name: 'Yellow Accretion Disk.png',
+        name: 'Yellow Accretion Disk',
         image: require(`${__dirname}/img/assets/features/Yellow Accretion Disk.png`),
     },
     {
-        name: 'Yellow Dyson Ring.png',
+        name: 'Yellow Dyson Ring',
         image: require(`${__dirname}/img/assets/features/Yellow Dyson Ring.png`),
     },
     {
-        name: 'Yellow Dyson Ring2.png',
+        name: 'Yellow Dyson Ring2',
         image: require(`${__dirname}/img/assets/features/Yellow Dyson Ring2.png`),
     },
     {
-        name: 'Yellow Quasar.png',
+        name: 'Yellow Quasar',
         image: require(`${__dirname}/img/assets/features/Yellow Quasar.png`),
     },
     {
-        name: 'Yellow Solar Flares.png',
+        name: 'Yellow Solar Flares',
         image: require(`${__dirname}/img/assets/features/Yellow Solar Flares.png`),
     },
 ];
