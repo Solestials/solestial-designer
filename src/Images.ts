@@ -712,6 +712,14 @@ const loadedOrbits: LoadedAttribute[] = [
         name: 'Cloud',
         image: require(`${__dirname}/img/assets/orbits/Cloud.png`),
     },
+    {
+        name: 'Lightning Cloud',
+        image: require(`${__dirname}/img/assets/orbits/Lightning Cloud.png`),
+    },
+    {
+        name: 'Maple Leaf',
+        image: require(`${__dirname}/img/assets/orbits/Maple Leaf.png`),
+    },
 ]
 
 const loadedOrbits2: LoadedAttribute[] = [
@@ -842,6 +850,14 @@ const loadedOrbits2: LoadedAttribute[] = [
     {
         name: 'Cloud',
         image: require(`${__dirname}/img/assets/orbits2/Cloud.png`),
+    },
+    {
+        name: 'Lightning Cloud',
+        image: require(`${__dirname}/img/assets/orbits2/Lightning Cloud.png`),
+    },
+    {
+        name: 'Maple Leaf',
+        image: require(`${__dirname}/img/assets/orbits2/Maple Leaf.png`),
     },
 ]
 
