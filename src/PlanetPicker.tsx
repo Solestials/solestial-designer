@@ -423,7 +423,7 @@ export function PlanetPicker(props: IPlanetPickerProps) {
             }}
         >
             <a
-                href="https://solestials.com"
+                href="https://solestials.io"
                 style={{
                     marginLeft: '20px',
                     marginTop: '20px',
